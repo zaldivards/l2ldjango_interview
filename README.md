@@ -19,7 +19,7 @@ run the example web application. In your cloned repo directory run the following
 - `$ which python3`
 - `$ <output of previous command> -m venv l2lpyenv`
 - `$ . ./l2lpyenv/bin/activate`
-- `$ pip install django`
+- `$ pip install django==3.1.7`
 - `$ python manage.py runserver 0.0.0.0:8443`
 
 You should now see output indicating that the Django site is running. If you run into a situation where you are told 
